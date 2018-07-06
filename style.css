@@ -32,3 +32,30 @@ a {
   color: black;
 }
 /* end of header */
+
+/* the four columns */
+.allcolumns {
+  display: flex;
+
+}
+
+.column {
+
+  border: 3px solid black;
+}
+.column .large {
+  display: flex;
+  width: 630px;
+}
+
+.column .medium {
+  display: flex;
+  width: 300px;
+
+}
+
+.column .small {
+  display: flex;
+  width: 240px;
+
+}
