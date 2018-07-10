@@ -59,3 +59,70 @@ a {
   width: 240px;
 
 }
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+/* background images for all the titles */
+.lead-story {
+  display: flex;
+  background-image: url("./resources/wine.png");
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+.fall-canceled {
+  display: flex;
+  background-image: url("./resources/girl.png");
+  flex-direction: column;
+}
+
+.pop-culture {
+  display: flex;
+  background-image: url("./resources/cameraman.png");
+  flex-direction: column;
+
+}
+
+
+
+.cats {
+  display: flex;
+  background-image: url("./resources/cat.png");
+}
+
+.image-content {
+  display: flex;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.topic {
+  color: white;
+}
+
+.tiny {
+  column-count: 2;
+}
