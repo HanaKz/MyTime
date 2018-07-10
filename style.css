@@ -124,5 +124,7 @@ p {
 }
 
 .tiny {
-  column-count: 2;
+  display: flex;
+  flex-direction: column;
+  column-width: 50%;
 }
