@@ -43,18 +43,18 @@ a {
 
   border: 3px solid black;
 }
-.column .large {
+.column.large {
   display: flex;
   width: 630px;
 }
 
-.column .medium {
+.column.medium {
   display: flex;
   width: 300px;
 
 }
 
-.column .small {
+.column.small {
   display: flex;
   width: 240px;
 
